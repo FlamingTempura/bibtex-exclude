@@ -1,4 +1,7 @@
-/* jshint unused: true, esversion: 6 */
+#!/usr/bin/env node
+/* jshint node: true, esversion: 6 */
+'use strict';
+
 const { parse } = require('bibtex-parse');
 const { readdirSync, readFileSync, writeFileSync } = require('fs');
 

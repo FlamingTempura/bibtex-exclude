@@ -1,8 +1,11 @@
 {
   "name": "bibtex-exclude",
-  "version": "0.1.0",
-  "description": "",
-  "main": "index.js",
+  "version": "0.1.2",
+  "description": "A tool to help with conducting a literature review by applying exclusion criteria to entries within BibTeX files.",
+  "main": "bibtex-exclude.js",
+  "bin": {
+    "bibtex-exclude": "./bibtex-exclude.js"
+  },
   "dependencies": {
     "bibtex-parse": "^0.2.5"
   },
@@ -10,6 +13,10 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
-  "license": "ISC"
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/FlamingTempura/bibtex-exclude.git"
+  },
+  "author": "FlamingTempura",
+  "license": "MIT"
 }
