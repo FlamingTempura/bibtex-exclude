@@ -19,7 +19,7 @@ npm install bibtex-exclude --global
 
 5. Run `node index.js` to update `results.bib`. Again, the results from each database will be included. Any entries in the exclusion bib files will be removed. The tool will also output the count of results at each stage, e.g.:
    ``` 
-Loading databases...
+   Loading databases...
                            acm: 40
                      ebscohost: 129
                          jstor: 12
@@ -29,18 +29,18 @@ Loading databases...
                   webofscience: 151
                          Total: 719
 
-Removing duplicates...
+   Removing duplicates...
                     duplicates: (240)
                          Total: 479
 
-Applying exclusions...
+   Applying exclusions...
                      off-topic: (256)
               not-quantitative: (137)
                  not-empirical: (38)
                    not-english: (13)
                 TOTAL ELIGIBLE: 35 (479 - 444)
-Results written to results.bib
-```
+   Results written to results.bib
+   ```
 
 If you wish to repeat the literature review in the future, you can re-use the exclusion lists to exclude those records from new database results. This makes it much easier to keep a literature review up-to-date.
 
