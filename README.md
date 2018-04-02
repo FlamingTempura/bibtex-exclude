@@ -45,3 +45,5 @@ Results written to results.bib
 If you wish to repeat the literature review in the future, you can re-use the exclusion lists to exclude those records from new database results. This makes it much easier to keep a literature review up-to-date.
 
 Exclusion lists could also be built from database searches for papers which should not form part of your results.
+
+Use option `--new` to write results to `results1.bib` if `results.bib` already exists, where `results1.bib` will only include results which are not already in `results.bib`. If `results1.bib` already exists, then results will be written to `results2.bib`, which will only include results not in `results.bib` or `results1.bib`, etc.
