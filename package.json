@@ -1,6 +1,6 @@
 {
   "name": "bibtex-exclude",
-  "version": "0.1.2",
+  "version": "0.2.0",
   "description": "A tool to help with conducting a literature review by applying exclusion criteria to entries within BibTeX files.",
   "main": "bibtex-exclude.js",
   "bin": {
